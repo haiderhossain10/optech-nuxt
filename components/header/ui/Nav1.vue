@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import navigation from "~/data/navigation";
 </script>
 
@@ -53,7 +53,6 @@ import navigation from "~/data/navigation";
                         </li>
                     </ul>
                 </li>
-                <li class="sub-menu--item nav-item-has-children"></li>
             </ul>
         </li>
     </ul>

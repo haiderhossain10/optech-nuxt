@@ -1,14 +1,25 @@
+<script setup>
+import HeroBranding from "./HeroBranding.vue";
+</script>
+
 <template>
     <div
-        class="optech-hero-section bg-cover"
-        style="background-image: url(assets/images/hero/bg1.png)"
+        class="optech-hero-section3 bg-cover"
+        style="background-image: url(assets/images/hero/bg2.png)"
     >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="optech-hero-content">
-                        <h5>We provide professional IT services</h5>
                         <h1>Delivering tech solutions for your startups</h1>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-5 offset-lg-1 d-flex align-items-center"
+                    data-aos="fade-up"
+                    data-aos-duration="600"
+                >
+                    <div class="optech-hero-content">
                         <p>
                             We transform businesses of most major sectors with
                             powerful and adaptable digital solutions that
@@ -37,19 +48,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 offset-lg-1">
-                    <div
-                        class="optech-hero-thumb"
-                        data-aos="fade-up"
-                        data-aos-duration="700"
-                    >
-                        <NuxtImg
-                            src="/assets/images/hero/hero-thumb1.png"
-                            alt="thumb"
-                        />
-                    </div>
-                </div>
             </div>
+            <div
+                class="optech-hero-thumb3"
+                data-aos="fade-up"
+                data-aos-duration="800"
+            >
+                <NuxtImg
+                    src="/assets/images/hero/hero-thumb2.png"
+                    alt="thumb"
+                />
+            </div>
+
+            <!-- hero branding start -->
+            <HeroBranding />
+            <!-- hero branding end -->
         </div>
     </div>
 </template>
