@@ -10,6 +10,12 @@ export default defineNuxtConfig({
         "/public/assets/css/main.css",
         "/public/assets/css/app.css",
     ],
-
-    modules: ["@nuxt/image"],
+    googleFonts: {
+        families: {
+            Lora: {
+                wght: [400, 500, 600, 700],
+            },
+        },
+    },
+    modules: ["@nuxt/image", "@nuxtjs/google-fonts"],
 });

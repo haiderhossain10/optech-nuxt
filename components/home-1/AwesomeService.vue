@@ -4,62 +4,60 @@ import { awesomeService1 } from "~/data/data";
 import AwesomeServiceCard from "./ui/AwesomeServiceCard.vue";
 
 onMounted(() => {
-    if (typeof window !== "undefined") {
-        $(".optech-4column-slider").slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: true,
-            autoplay: false,
-            centerMode: true,
-            centerPadding: "300px",
-            responsive: [
-                {
-                    breakpoint: 1600,
-                    settings: {
-                        slidesToShow: 3,
-                        centerPadding: "250px",
-                    },
+    $(".optech-4column-slider").slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: false,
+        centerMode: true,
+        centerPadding: "300px",
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "250px",
                 },
-                {
-                    breakpoint: 1399,
-                    settings: {
-                        slidesToShow: 3,
-                        centerPadding: "150px",
-                    },
+            },
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "150px",
                 },
-                {
-                    breakpoint: 1199,
-                    settings: {
-                        slidesToShow: 3,
-                        centerPadding: "100px",
-                    },
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "100px",
                 },
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 2,
-                        centerPadding: "100px",
-                    },
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: "100px",
                 },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        centerPadding: "100px",
-                    },
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: "100px",
                 },
-                {
-                    breakpoint: 575,
-                    settings: {
-                        slidesToShow: 1,
-                        centerPadding: "0px",
-                    },
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: "0px",
                 },
-            ],
-        });
-    }
+            },
+        ],
+    });
 });
 </script>
 

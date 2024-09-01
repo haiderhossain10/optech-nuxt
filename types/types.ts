@@ -17,3 +17,26 @@ export interface ExpertTeam1Type {
     name: string;
     position: string;
 }
+
+export interface Testimonial1Type {
+    comment: string;
+    name: string;
+    position: string;
+    star: number;
+}
+
+export interface BlogArticle1Type {
+    imgUrl: string;
+    title: string;
+    category: string;
+}
+
+export interface Social1Type {
+    icon: string;
+    url: string;
+}
+
+export interface LinkType {
+    title: string;
+    url: string;
+}

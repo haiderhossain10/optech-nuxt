@@ -1,8 +1,12 @@
 import type {
     AwesomeService1Type,
+    BlogArticle1Type,
     ExpertTeam1Type,
     Feature1Type,
+    LinkType,
     RecentProject1Type,
+    Social1Type,
+    Testimonial1Type,
 } from "~/types/types";
 
 export const feature1: Feature1Type[] = [
@@ -104,5 +108,131 @@ export const expertTeam1: ExpertTeam1Type[] = [
         imgUrl: "assets/images/team/team4.png",
         name: "Alexander Cameron",
         position: "Product Designer",
+    },
+];
+
+export const testimonial1: Testimonial1Type[] = [
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Brooklyn Simmons",
+        position: "Lead Developer",
+        star: 5,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Alexander Cameron",
+        position: "Lead Developer",
+        star: 4,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Brooklyn Simmons",
+        position: "Lead Developer",
+        star: 5,
+    },
+];
+
+export const blogArticle1: BlogArticle1Type[] = [
+    {
+        imgUrl: "/assets/images/blog/blog6.png",
+        title: "Planning your online business goals with a specialist",
+        category: "Technology",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog7.png",
+        title: "Boost your startup business with our digital agency",
+        category: "Design",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog8.png",
+        title: "Proactive customer experience in the business",
+        category: "Marketing",
+    },
+];
+
+export const social1: Social1Type[] = [
+    {
+        icon: "ri-facebook-fill",
+        url: "https://www.facebook.com/",
+    },
+    {
+        icon: "ri-linkedin-fill",
+        url: "https://www.linkedin.com/",
+    },
+    {
+        icon: "ri-twitter-fill",
+        url: "https://twitter.com/",
+    },
+    {
+        icon: "ri-instagram-fill",
+        url: "https://www.instagram.com/",
+    },
+];
+
+export const footerQuickLinks: LinkType[] = [
+    {
+        title: "About Us",
+        url: "/about",
+    },
+    {
+        title: "Our Team",
+        url: "/team",
+    },
+    {
+        title: "Pricing",
+        url: "/pricing",
+    },
+    {
+        title: "Blogs",
+        url: "/blog",
+    },
+    {
+        title: "Contact Us",
+        url: "/contac",
+    },
+];
+
+export const footerServiceLinks: LinkType[] = [
+    {
+        title: "UI/UX Design",
+        url: "/",
+    },
+    {
+        title: "App Development",
+        url: "/",
+    },
+    {
+        title: "Digital Marketing",
+        url: "/",
+    },
+    {
+        title: "Web Development",
+        url: "/",
+    },
+    {
+        title: "Cyber Security",
+        url: "/",
+    },
+];
+
+export const footerInfoLinks: LinkType[] = [
+    {
+        title: "Working Process",
+        url: "/",
+    },
+    {
+        title: "Privacy Policy",
+        url: "/",
+    },
+    {
+        title: "Terms & Conditions",
+        url: "/",
+    },
+    {
+        title: "Faqs",
+        url: "/",
     },
 ];

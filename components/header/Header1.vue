@@ -26,7 +26,7 @@ const isSticky = useScroll();
                                 <NuxtImg
                                     src="/assets/images/logo/logo-dark.svg"
                                     alt="logo"
-                                    class="light-version-logo"
+                                    class="light-version-logo h-auto w-100"
                                 />
                             </NuxtLink>
                         </div>
