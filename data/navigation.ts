@@ -4,7 +4,7 @@ const navigation = [
         children: [
             {
                 label: "Main Demo",
-                url: "/home-1",
+                url: "/",
             },
             {
                 label: "IT Solutions",

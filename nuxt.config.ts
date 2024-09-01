@@ -7,8 +7,8 @@ export default defineNuxtConfig({
         "slick-carousel/slick/slick-theme.css",
         "/public/assets/css/fontawesome.css",
         "/public/assets/css/remixicon.css",
-        "/public/assets/css/main.css",
         "/public/assets/css/app.css",
+        "/public/assets/css/main.css",
     ],
     googleFonts: {
         families: {
@@ -16,6 +16,9 @@ export default defineNuxtConfig({
                 wght: [400, 500, 600, 700],
             },
         },
+    },
+    build: {
+        transpile: ["vue-countup-v3"],
     },
     modules: ["@nuxt/image", "@nuxtjs/google-fonts"],
 });

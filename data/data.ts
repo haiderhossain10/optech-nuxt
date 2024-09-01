@@ -1,4 +1,5 @@
 import type {
+    Achievement1Type,
     AwesomeService1Type,
     BlogArticle1Type,
     ExpertTeam1Type,
@@ -234,5 +235,32 @@ export const footerInfoLinks: LinkType[] = [
     {
         title: "Faqs",
         url: "/",
+    },
+];
+
+export const achievement1: Achievement1Type[] = [
+    {
+        iconUrl: "/assets/images/v2/icon1.svg",
+        number: 1800,
+        symbol: "+",
+        title: "Happy Clients",
+    },
+    {
+        iconUrl: "/assets/images/v2/icon2.svg",
+        number: 600,
+        symbol: "+",
+        title: "Finished Projects",
+    },
+    {
+        iconUrl: "/assets/images/v2/icon3.svg",
+        number: 200,
+        symbol: "+",
+        title: "Skilled Experts",
+    },
+    {
+        iconUrl: "/assets/images/v2/icon4.svg",
+        number: 26,
+        symbol: "%",
+        title: "Clients Satisfaction",
     },
 ];

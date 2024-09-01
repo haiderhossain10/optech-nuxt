@@ -1,5 +1,5 @@
 <template>
-    <div class="optech-header-top bg-accent">
+    <div class="optech-header-top">
         <div class="container">
             <div class="optech-header-info-wrap">
                 <div class="optech-header-info">

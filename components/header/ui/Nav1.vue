@@ -3,7 +3,7 @@ import navigation from "~/data/navigation";
 </script>
 
 <template>
-    <ul class="site-menu-main light-color">
+    <ul class="site-menu-main">
         <li
             :class="`nav-item ${item.children ? 'nav-item-has-children' : ''}`"
             v-for="(item, i) in navigation"

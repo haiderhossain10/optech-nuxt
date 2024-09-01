@@ -40,3 +40,10 @@ export interface LinkType {
     title: string;
     url: string;
 }
+
+export interface Achievement1Type {
+    iconUrl: string;
+    number: number;
+    symbol: string;
+    title: string;
+}
