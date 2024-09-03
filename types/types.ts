@@ -47,3 +47,15 @@ export interface Achievement1Type {
     symbol: string;
     title: string;
 }
+
+export interface WorkingProcess1Type {
+    imgUrl: string;
+    title: string;
+    description: string;
+}
+
+export interface Pricing1Type {
+    plan: string;
+    price: number;
+    duration: string;
+}

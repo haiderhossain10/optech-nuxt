@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import FooterCopyright1 from "./ui/FooterCopyright1.vue";
 import FooterSocial1 from "./ui/FooterSocial1.vue";
-import FooterWidget1 from "./ui/FooterWidget1.vue";
+import FooterMenu1 from "./ui/FooterMenu1.vue";
 </script>
 
 <template>
@@ -22,19 +22,13 @@ import FooterWidget1 from "./ui/FooterWidget1.vue";
                                 You can customize almost anything in the
                                 appearance of your website with only a few
                             </p>
-                            <!-- footer social start -->
                             <FooterSocial1 />
-                            <!-- footer social end -->
                         </div>
                     </div>
-                    <!-- footer widget start -->
-                    <FooterWidget1 />
-                    <!-- footer widget end -->
+                    <FooterMenu1 />
                 </div>
             </div>
-            <!-- footer copyright start -->
             <FooterCopyright1 />
-            <!-- footer copyright end -->
         </div>
     </footer>
 </template>

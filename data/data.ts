@@ -5,9 +5,11 @@ import type {
     ExpertTeam1Type,
     Feature1Type,
     LinkType,
+    Pricing1Type,
     RecentProject1Type,
     Social1Type,
     Testimonial1Type,
+    WorkingProcess1Type,
 } from "~/types/types";
 
 export const feature1: Feature1Type[] = [
@@ -89,6 +91,29 @@ export const recentProject1: RecentProject1Type[] = [
     },
 ];
 
+export const recentProject2: RecentProject1Type[] = [
+    {
+        imgUrl: "/assets/images/p2/p1.png",
+        title: "Cyber Security Analysis",
+        category: "Security, Technology",
+    },
+    {
+        imgUrl: "/assets/images/p2/p2.png",
+        title: "Digital Product Design",
+        category: "Design, Graphics",
+    },
+    {
+        imgUrl: "/assets/images/p2/p3.png",
+        title: "Health App Development",
+        category: "Development, Software",
+    },
+    {
+        imgUrl: "/assets/images/p2/p4.png",
+        title: "Project for Marketing",
+        category: "Marketing, Business",
+    },
+];
+
 export const expertTeam1: ExpertTeam1Type[] = [
     {
         imgUrl: "/assets/images/team/team1.png",
@@ -149,6 +174,24 @@ export const blogArticle1: BlogArticle1Type[] = [
     },
     {
         imgUrl: "/assets/images/blog/blog8.png",
+        title: "Proactive customer experience in the business",
+        category: "Marketing",
+    },
+];
+
+export const blogArticle2: BlogArticle1Type[] = [
+    {
+        imgUrl: "/assets/images/blog/blog15.png",
+        title: "Boost your startup business with our digital agency",
+        category: "Design",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog16.png",
+        title: "Planning your online business goals with a specialist",
+        category: "Technology",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog17.png",
         title: "Proactive customer experience in the business",
         category: "Marketing",
     },
@@ -262,5 +305,44 @@ export const achievement1: Achievement1Type[] = [
         number: 26,
         symbol: "%",
         title: "Clients Satisfaction",
+    },
+];
+
+export const workingProcess1: WorkingProcess1Type[] = [
+    {
+        imgUrl: "/assets/images/v2/illustration1.svg",
+        title: "Initiation & Planning",
+        description:
+            "We are architects innovation trailblazers of technological advancement",
+    },
+    {
+        imgUrl: "/assets/images/v2/illustration2.svg",
+        title: "Execution & Development",
+        description:
+            "We are architects innovation trailblazers of technological advancement",
+    },
+    {
+        imgUrl: "/assets/images/v2/illustration3.svg",
+        title: "Testing & Maintenance",
+        description:
+            "We are architects innovation trailblazers of technological advancement",
+    },
+];
+
+export const prcing1: Pricing1Type[] = [
+    {
+        plan: "Startup",
+        price: 99,
+        duration: "month",
+    },
+    {
+        plan: "Business",
+        price: 299,
+        duration: "month",
+    },
+    {
+        plan: "Enterprise",
+        price: 779,
+        duration: "month",
     },
 ];

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { recentProject1 } from "~/data/data";
-import RecentProjectCard from "./ui/RecentProjectCard.vue";
+import RecentProjectCard from "../ui/cards/RecentProjectCard.vue";
 </script>
 
 <template>
