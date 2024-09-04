@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import HeaderSidebar from "../ui/sidebars/HeaderSidebar.vue";
 import HeaderBar3 from "./ui/HeaderBar3.vue";
 import HeaderSearch from "./ui/HeaderSearch.vue";
 import Nav2 from "./ui/Nav2.vue";
 const isSearchActive = useSearchToggle();
-
 const isSticky = useScroll(100);
+const isHeaderSidebarActive = useHeaderSidebarToggle();
 </script>
 
 <template>
@@ -56,7 +57,10 @@ const isSticky = useScroll(100);
                                 >
                                     <i class="ri-search-line"></i>
                                 </div>
-                                <div class="optech-header-barger">
+                                <div
+                                    class="optech-header-barger"
+                                    @click="isHeaderSidebarActive = true"
+                                >
                                     <span></span>
                                 </div>
                             </div>
@@ -74,4 +78,8 @@ const isSticky = useScroll(100);
     <!-- header search start -->
     <HeaderSearch />
     <!-- header search end -->
+
+    <!-- header sidebar start -->
+    <HeaderSidebar />
+    <!-- header sidebar end -->
 </template>
