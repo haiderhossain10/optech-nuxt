@@ -1,6 +1,7 @@
 import type {
     Achievement1Type,
     AwesomeService1Type,
+    AwesomeService2Type,
     BlogArticle1Type,
     ExpertTeam1Type,
     Feature1Type,
@@ -60,6 +61,34 @@ export const awesomeService1: AwesomeService1Type[] = [
         iconUrl: "/assets/images/iconbox/icon6.svg",
         title: "UI/UX & Branding <br> Identity",
         description: "Developing a comprehensive IT strategy that aligns.",
+    },
+];
+
+export const awesomeService2: AwesomeService2Type[] = [
+    {
+        imgUrl: "/assets/images/v3/service1.png",
+        iconUrl: "/assets/images/v3/icon1.svg",
+        title: "IT Management <br> Service",
+    },
+    {
+        imgUrl: "/assets/images/v3/service2.png",
+        iconUrl: "/assets/images/v3/icon2.svg",
+        title: "Web & Mobile App <br> Development",
+    },
+    {
+        imgUrl: "/assets/images/v3/service3.png",
+        iconUrl: "/assets/images/v3/icon3.svg",
+        title: "UI/UX & Branding <br> Identity",
+    },
+    {
+        imgUrl: "/assets/images/v3/service4.png",
+        iconUrl: "/assets/images/v3/icon4.svg",
+        title: "Digital Marketing <br> Services",
+    },
+    {
+        imgUrl: "/assets/images/v3/service2.png",
+        iconUrl: "/assets/images/v3/icon2.svg",
+        title: "Web & Mobile App <br> Development",
     },
 ];
 

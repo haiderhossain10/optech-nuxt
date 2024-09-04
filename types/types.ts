@@ -6,6 +6,12 @@ export interface Feature1Type {
 
 export interface AwesomeService1Type extends Feature1Type {}
 
+export interface AwesomeService2Type {
+    imgUrl: string;
+    iconUrl: string;
+    title: string;
+}
+
 export interface RecentProject1Type {
     imgUrl: string;
     title: string;

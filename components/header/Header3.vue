@@ -1,14 +1,20 @@
 <script setup lang="ts">
-import HeaderBar1 from "./ui/HeaderBar2.vue";
+import HeaderBar3 from "./ui/HeaderBar3.vue";
 import HeaderSearch from "./ui/HeaderSearch.vue";
-import Nav from "./ui/Nav1.vue";
+import Nav2 from "./ui/Nav2.vue";
 const isSearchActive = useSearchToggle();
+
+const isSticky = useScroll(100);
 </script>
 
 <template>
-    <header class="site-header optech-header-section site-header--menu-right">
+    <header
+        :class="`site-header optech-header-section site-header--menu-right ${
+            isSticky ? 'sticky-menu' : ''
+        }`"
+    >
         <!-- header bar start -->
-        <HeaderBar1 />
+        <HeaderBar3 />
         <!-- header bar end -->
 
         <div class="optech-header-bottom p-0">
@@ -36,7 +42,7 @@ const isSearchActive = useSearchToggle();
                                     <div class="mobile-menu-close">&times;</div>
                                 </div>
                                 <!-- nav start -->
-                                <Nav />
+                                <Nav2 />
                                 <!-- nav end -->
                             </nav>
                         </div>
