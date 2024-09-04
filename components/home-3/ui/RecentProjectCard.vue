@@ -1,0 +1,30 @@
+<script setup lang="ts">
+import type { RecentProject1Type } from "~/types/types";
+
+const props = defineProps<{
+    data: RecentProject1Type;
+}>();
+
+const { title, category, imgUrl } = props.data;
+</script>
+
+<template>
+    <div class="optech-portfolio-wrap2">
+        <div class="optech-portfolio-thumb2">
+            <NuxtImg :src="imgUrl" alt="img" />
+        </div>
+        <div class="optech-portfolio-data2-wrap">
+            <div class="optech-portfolio-data2">
+                <NuxtLink to="/single-portfolio">
+                    <h4>{{ title }}</h4>
+                </NuxtLink>
+                <p>{{ category }}</p>
+            </div>
+            <NuxtLink class="optech-portfolio-btn2" to="/single-portfolio">
+                <span class="p-btn-wraper"
+                    ><i class="ri-arrow-right-up-line"></i
+                ></span>
+            </NuxtLink>
+        </div>
+    </div>
+</template>

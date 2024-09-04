@@ -31,6 +31,27 @@ export const feature1: Feature1Type[] = [
     },
 ];
 
+export const feature2: Feature1Type[] = [
+    {
+        iconUrl: "/assets/images/iconbox/icon10.svg",
+        title: "Quality Solution for Business",
+        description:
+            "Each demo built with Teba will look different. customize almost anything in the appearance of your",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon1.svg",
+        title: "Amazing Expert Teams",
+        description:
+            "Each demo built with Teba will look different. customize almost anything in the appearance of your",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon2.svg",
+        title: "Urgent Support For Clients",
+        description:
+            "Each demo built with Teba will look different. customize almost anything in the appearance of your",
+    },
+];
+
 export const awesomeService1: AwesomeService1Type[] = [
     {
         iconUrl: "/assets/images/iconbox/icon4.svg",
@@ -221,6 +242,24 @@ export const blogArticle2: BlogArticle1Type[] = [
     },
     {
         imgUrl: "/assets/images/blog/blog17.png",
+        title: "Proactive customer experience in the business",
+        category: "Marketing",
+    },
+];
+
+export const blogArticle3: BlogArticle1Type[] = [
+    {
+        imgUrl: "/assets/images/blog/blog8.png",
+        title: "Boost your startup business with our digital agency",
+        category: "Design",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog7.png",
+        title: "Planning your online business goals with a specialist",
+        category: "Technology",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog9.png",
         title: "Proactive customer experience in the business",
         category: "Marketing",
     },

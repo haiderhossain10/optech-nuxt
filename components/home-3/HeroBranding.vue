@@ -2,35 +2,33 @@
 import $ from "jquery";
 
 onMounted(() => {
-    if (typeof window !== "undefined") {
-        $(".optech-brand-slider").slick({
-            infinite: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: false,
-            autoplay: true,
-            autoplaySpeed: 0,
-            speed: 6000,
-            cssEase: "linear",
-            pauseOnHover: true,
-            adaptiveHeight: true,
-            responsive: [
-                {
-                    breakpoint: 1199,
-                    settings: {
-                        slidesToShow: 3,
-                    },
+    $(".optech-brand-slider").slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 6000,
+        cssEase: "linear",
+        pauseOnHover: true,
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 3,
                 },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 2,
-                    },
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
                 },
-            ],
-        });
-    }
+            },
+        ],
+    });
 });
 </script>
 
