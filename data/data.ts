@@ -4,6 +4,7 @@ import type {
     AwesomeService2Type,
     BlogArticle1Type,
     ExpertTeam1Type,
+    Faq1Type,
     Feature1Type,
     LinkType,
     Pricing1Type,
@@ -113,6 +114,45 @@ export const awesomeService2: AwesomeService2Type[] = [
     },
 ];
 
+export const awesomeService3: AwesomeService1Type[] = [
+    {
+        iconUrl: "/assets/images/iconbox/icon4.svg",
+        title: "Data Tracking Security",
+        description:
+            "Each demo built with Teba will look different. You can customize almost anything the appearance",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon5.svg",
+        title: "IT Management Service",
+        description:
+            "Each demo built with Teba will look different. You can customize almost anything the appearance",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon6.svg",
+        title: "UI/UX & Branding Identity",
+        description:
+            "Each demo built with Teba will look different. You can customize almost anything the appearance",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon7.svg",
+        title: "Web & Mobile App Development",
+        description:
+            "Each demo built with Teba will look different. You can customize almost anything the appearance",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon8.svg",
+        title: "Digital Marketing Services",
+        description:
+            "Each demo built with Teba will look different. You can customize almost anything the appearance",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon6.svg",
+        title: "UI/UX & Branding Identity",
+        description:
+            "Each demo built with Teba will look different. You can customize almost anything the appearance",
+    },
+];
+
 export const recentProject1: RecentProject1Type[] = [
     {
         imgUrl: "/assets/images/p1/p1.png",
@@ -161,6 +201,39 @@ export const recentProject2: RecentProject1Type[] = [
         imgUrl: "/assets/images/p2/p4.png",
         title: "Project for Marketing",
         category: "Marketing, Business",
+    },
+];
+
+export const recentProject3: RecentProject1Type[] = [
+    {
+        imgUrl: "/assets/images/p1/p1.png",
+        title: "Digital Product Design",
+        category: "Design, Graphics",
+    },
+    {
+        imgUrl: "/assets/images/p1/p2.png",
+        title: "Cyber Security Analysis",
+        category: "Security, Technology",
+    },
+    {
+        imgUrl: "/assets/images/p1/p3.png",
+        title: "Health App Development",
+        category: "Development, Software",
+    },
+    {
+        imgUrl: "/assets/images/p1/p4.png",
+        title: "Marketing Agency Websit",
+        category: "Development, Marketing",
+    },
+    {
+        imgUrl: "/assets/images/p1/p6.png",
+        title: "Project for Marketing",
+        category: "Marketing, Business",
+    },
+    {
+        imgUrl: "/assets/images/p1/p7.png",
+        title: "CMS Software Solutions",
+        category: "Security, Technology",
     },
 ];
 
@@ -412,5 +485,24 @@ export const prcing1: Pricing1Type[] = [
         plan: "Enterprise",
         price: 779,
         duration: "month",
+    },
+];
+
+export const faq1: Faq1Type[] = [
+    {
+        question: "Q1. What Is The Design Process For Branding?",
+        answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        question: "Q2. How Much Does Logo Design Services Cost?",
+        answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        question: "Q3. How Long Will It Take To Complete My Project?",
+        answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        question: "Q4. What Is Included In A Round Of Revisions?",
+        answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
     },
 ];

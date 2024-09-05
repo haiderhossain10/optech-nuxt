@@ -29,7 +29,7 @@ const { imgUrl, title, category } = props.data;
             <NuxtLink to="/single-blog">
                 <h4>{{ title }}</h4>
             </NuxtLink>
-            <NuxtLink tos="optech-icon-btn" href="/single-blog"
+            <NuxtLink class="optech-icon-btn" to="/single-blog"
                 ><i class="icon-show ri-arrow-right-line"></i>
                 <span>Learn More</span>
                 <i class="icon-hide ri-arrow-right-line"></i

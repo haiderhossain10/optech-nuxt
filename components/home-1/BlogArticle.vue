@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { blogArticle1 } from "~/data/data";
-import BlogArticleCard from "./ui/BlogArticleCard.vue";
+import BlogArticleCard from "../ui/cards/BlogArticleCard.vue";
 </script>
 
 <template>
@@ -31,11 +31,13 @@ import BlogArticleCard from "./ui/BlogArticleCard.vue";
                 <div
                     class="col-xl-4 col-md-6"
                     data-aos="fade-up"
-                    data-aos-duration="600"
+                    :data-aos-duration="i * 200 + 600"
                     v-for="(item, i) in blogArticle1"
                     :key="i"
                 >
+                    <!-- blog article card start -->
                     <BlogArticleCard :data="item" />
+                    <!-- blog article card end -->
                 </div>
             </div>
         </div>

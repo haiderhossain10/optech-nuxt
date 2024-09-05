@@ -5,10 +5,10 @@ export default defineNuxtConfig({
         "bootstrap/dist/css/bootstrap.min.css",
         "slick-carousel/slick/slick.css",
         "slick-carousel/slick/slick-theme.css",
-        "/public/assets/css/fontawesome.css",
-        "/public/assets/css/remixicon.css",
-        "/public/assets/css/app.css",
-        "/public/assets/css/main.css",
+        "public/assets/css/fontawesome.css",
+        "public/assets/css/remixicon.css",
+        "public/assets/css/main.css",
+        "public/assets/css/app.min.css",
     ],
     googleFonts: {
         families: {

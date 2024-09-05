@@ -11,7 +11,7 @@ const { title, category, imgUrl } = props.data;
 <template>
     <div class="optech-portfolio-wrap2">
         <div class="optech-portfolio-thumb2">
-            <NuxtImg :src="imgUrl" alt="img" />
+            <NuxtImg class="h-100 w-100" :src="imgUrl" alt="img" />
         </div>
         <div class="optech-portfolio-data2-wrap">
             <div class="optech-portfolio-data2">

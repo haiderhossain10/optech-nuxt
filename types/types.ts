@@ -65,3 +65,8 @@ export interface Pricing1Type {
     price: number;
     duration: string;
 }
+
+export interface Faq1Type {
+    question: string;
+    answer: string;
+}
