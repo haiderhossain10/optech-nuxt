@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { blogArticle1 } from "~/data/data";
-import BlogArticleCard from "../ui/cards/BlogArticleCard.vue";
+import BlogArticleCard from "./ui/BlogArticleCard.vue";
 </script>
 
 <template>
-    <div class="section optech-section-padding2">
+    <div class="section optech-section-padding2 bg-light1">
         <div class="container">
             <div class="optech-section-title">
                 <div class="row">
@@ -35,9 +35,7 @@ import BlogArticleCard from "../ui/cards/BlogArticleCard.vue";
                     v-for="(item, i) in blogArticle1.slice(0, 3)"
                     :key="i"
                 >
-                    <!-- blog article card start -->
                     <BlogArticleCard :data="item" />
-                    <!-- blog article card end -->
                 </div>
             </div>
         </div>

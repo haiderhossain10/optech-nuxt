@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { blogArticle1 } from "~/data/data";
-import BlogArticleCard from "../ui/cards/BlogArticleCard.vue";
+import { blogArticle2 } from "~/data/data";
+import BlogArticleCard2 from "../ui/cards/BlogArticleCard2.vue";
 </script>
 
 <template>
-    <div class="section optech-section-padding2">
+    <div class="section optech-section-padding2 bg-light1">
         <div class="container">
             <div class="optech-section-title">
                 <div class="row">
@@ -28,17 +28,17 @@ import BlogArticleCard from "../ui/cards/BlogArticleCard.vue";
                 </div>
             </div>
             <div class="row">
+                <!-- blog artical card start -->
                 <div
                     class="col-xl-4 col-md-6"
                     data-aos="fade-up"
                     :data-aos-duration="i * 200 + 600"
-                    v-for="(item, i) in blogArticle1.slice(0, 3)"
+                    v-for="(item, i) in blogArticle2.slice(0, 3)"
                     :key="i"
                 >
-                    <!-- blog article card start -->
-                    <BlogArticleCard :data="item" />
-                    <!-- blog article card end -->
+                    <BlogArticleCard2 :data="item" />
                 </div>
+                <!-- blog artical card end -->
             </div>
         </div>
     </div>

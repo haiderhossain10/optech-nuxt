@@ -4,7 +4,7 @@ import WorkingProcessCard from "../ui/cards/WorkingProcessCard.vue";
 </script>
 
 <template>
-    <div class="section bg-light1 optech-section-padding5">
+    <div class="section optech-section-padding5">
         <div class="container">
             <div class="optech-section-title center">
                 <h2>Our working process on how to grow your business</h2>

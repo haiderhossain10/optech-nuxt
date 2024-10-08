@@ -4,15 +4,19 @@ import CountUp from "vue-countup-v3";
 
 const props = defineProps<{
     data: Achievement1Type;
-    index: number;
+    i: number;
 }>();
 
 const { iconUrl, number, symbol, title } = props.data;
-const index = props.index;
+const i = props.i;
 </script>
 
 <template>
-    <div class="optech-counter-data" data-aos="fade-up" data-aos-duration="400">
+    <div
+        class="optech-counter-data"
+        data-aos="fade-up"
+        :data-aos-duration="i * 200 + 400"
+    >
         <div class="optech-counter-icon">
             <NuxtImg height="36" width="36" :src="iconUrl" alt="icon" />
         </div>

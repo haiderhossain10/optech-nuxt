@@ -10,7 +10,7 @@ import Hero from "~/components/home-1/Hero.vue";
 import OurExpertise from "~/components/home-1/OurExpertise.vue";
 import RecentProject from "~/components/home-1/RecentProject.vue";
 import Testimonial from "~/components/home-1/Testimonial.vue";
-import WorkTogether from "~/components/home-1/WorkTogether.vue";
+import WorkTogether from "~/components/ui/sections/WorkTogether.vue";
 
 useHead({
     title: "Home-1",

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { blogArticle2 } from "~/data/data";
-import BlogArticleCard from "./ui/BlogArticleCard.vue";
+import BlogArticleCard2 from "../ui/cards/BlogArticleCard2.vue";
 </script>
 
 <template>
@@ -18,7 +18,7 @@ import BlogArticleCard from "./ui/BlogArticleCard.vue";
                     :key="i"
                 >
                     <!-- blog card start -->
-                    <BlogArticleCard :data="item" />
+                    <BlogArticleCard2 :data="item" />
                     <!-- blog card end -->
                 </div>
             </div>

@@ -3,9 +3,11 @@ import type {
     AwesomeService1Type,
     AwesomeService2Type,
     BlogArticle1Type,
+    ChooseUs1Type,
     ExpertTeam1Type,
     Faq1Type,
     Feature1Type,
+    Hero1Type,
     LinkType,
     Pricing1Type,
     RecentProject1Type,
@@ -260,6 +262,39 @@ export const expertTeam1: ExpertTeam1Type[] = [
     },
 ];
 
+export const expertTeam2: ExpertTeam1Type[] = [
+    {
+        imgUrl: "/assets/images/team/team1.png",
+        name: "Marvin McKinney",
+        position: "CEO & Founder",
+    },
+    {
+        imgUrl: "/assets/images/team/team2.png",
+        name: "Sophia Rodriguez",
+        position: "Creative Director",
+    },
+    {
+        imgUrl: "/assets/images/team/team3.png",
+        name: "Marvin McKinney",
+        position: "Lead Developer",
+    },
+    {
+        imgUrl: "assets/images/team/team4.png",
+        name: "Alexander Cameron",
+        position: "Product Designer",
+    },
+    {
+        imgUrl: "/assets/images/team/team1.png",
+        name: "Marvin McKinney",
+        position: "CEO & Founder",
+    },
+    {
+        imgUrl: "/assets/images/team/team2.png",
+        name: "Sophia Rodriguez",
+        position: "Creative Director",
+    },
+];
+
 export const testimonial1: Testimonial1Type[] = [
     {
         comment:
@@ -274,6 +309,13 @@ export const testimonial1: Testimonial1Type[] = [
         name: "Alexander Cameron",
         position: "Lead Developer",
         star: 4,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Brooklyn Simmons",
+        position: "Lead Developer",
+        star: 5,
     },
     {
         comment:
@@ -449,6 +491,33 @@ export const achievement1: Achievement1Type[] = [
     },
 ];
 
+export const achievement2: Achievement1Type[] = [
+    {
+        iconUrl: "/assets/images/v5/icon1.svg",
+        number: 1800,
+        symbol: "+",
+        title: "Happy Clients",
+    },
+    {
+        iconUrl: "/assets/images/v5/icon2.svg",
+        number: 600,
+        symbol: "+",
+        title: "Finished Projects",
+    },
+    {
+        iconUrl: "/assets/images/v5/icon3.svg",
+        number: 200,
+        symbol: "+",
+        title: "Skilled Experts",
+    },
+    {
+        iconUrl: "/assets/images/v5/icon4.svg",
+        number: 26,
+        symbol: "%",
+        title: "Clients Satisfaction",
+    },
+];
+
 export const workingProcess1: WorkingProcess1Type[] = [
     {
         imgUrl: "/assets/images/v2/illustration1.svg",
@@ -504,5 +573,36 @@ export const faq1: Faq1Type[] = [
     {
         question: "Q4. What Is Included In A Round Of Revisions?",
         answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+];
+
+export const choooseUs1: ChooseUs1Type[] = [
+    {
+        iconUrl: "/assets/images/iconbox/icon1.svg",
+        title: "Highly Expert Team",
+        description: "We provide the most responsive and functional IT design",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon2.svg",
+        title: "24/7 Customer Service",
+        description: "We provide the most responsive and functional IT design",
+    },
+    {
+        iconUrl: "/assets/images/iconbox/icon3.svg",
+        title: "Competitive Pricing",
+        description: "We provide the most responsive and functional IT design",
+    },
+];
+
+export const hero1: Hero1Type[] = [
+    {
+        titleHead: "We provide professional IT services",
+        title: "Affordable big IT & technology solutions",
+        bgImgUrl: "/assets/images/hero/hero-bg3.png",
+    },
+    {
+        titleHead: "We provide professional IT services",
+        title: "Affordable big IT & technology solutions",
+        bgImgUrl: "/assets/images/hero/hero-bg2.png",
     },
 ];

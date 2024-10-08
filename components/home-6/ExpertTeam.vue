@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import { expertTeam2 } from "~/data/data";
 import $ from "jquery";
-import { awesomeService1 } from "~/data/data";
-import AwesomeServiceCard2 from "../ui/cards/AwesomeServiceCard2.vue";
+import ExpertTeamCard from "./ui/ExpertTeamCard.vue";
 
 onMounted(() => {
     $(".optech-4column-slider").slick({
@@ -62,24 +62,24 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="sectin bg-light1 optech-section-padding">
+    <div class="section optech-section-padding">
         <div class="container">
             <div class="optech-section-title center">
-                <h2>Our awesome services to give you success</h2>
+                <h2>Our expert team is always ready to help you</h2>
             </div>
         </div>
+        <!-- expert team card start -->
         <div
             class="optech-4column-slider"
             data-aos="fade-up"
             data-aos-duration="800"
         >
-            <!-- awesome card start -->
-            <AwesomeServiceCard2
-                v-for="(item, i) in awesomeService1.slice(0, 6)"
+            <ExpertTeamCard
+                v-for="(item, i) in expertTeam2"
                 :key="i"
                 :data="item"
             />
-            <!-- awesome card end -->
         </div>
+        <!-- expert team card end -->
     </div>
 </template>

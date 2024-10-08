@@ -11,7 +11,7 @@ const { iconUrl, title, description } = props.data;
 <template>
     <div class="optech-iconbox-wrap">
         <div class="optech-iconbox-icon">
-            <NuxtImg :src="iconUrl" alt="icon" />
+            <NuxtImg height="36" width="36" :src="iconUrl" alt="icon" />
         </div>
         <div class="optech-iconbox-data">
             <h5 v-html="title"></h5>

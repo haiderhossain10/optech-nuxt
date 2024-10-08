@@ -11,7 +11,7 @@ const { imgUrl, title, category } = props.data;
 <template>
     <div class="optech-portfolio-wrap">
         <div class="optech-portfolio-thumb">
-            <NuxtImg :src="imgUrl" alt="img" />
+            <NuxtImg class="h-auto w-100" :src="imgUrl" alt="img" />
             <NuxtLink class="optech-portfolio-btn" to="/single-portfolio">
                 <span class="p-btn-wraper"
                     ><i class="ri-arrow-right-up-line"></i

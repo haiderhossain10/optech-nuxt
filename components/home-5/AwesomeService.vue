@@ -38,7 +38,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="section optech-section-padding">
+    <div class="section optech-section-padding bg-light1">
         <div class="container">
             <div class="optech-section-title center">
                 <h2>Our awesome services to give you success</h2>

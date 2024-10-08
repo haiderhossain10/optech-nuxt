@@ -70,3 +70,15 @@ export interface Faq1Type {
     question: string;
     answer: string;
 }
+
+export interface ChooseUs1Type {
+    iconUrl: string;
+    title: string;
+    description: string;
+}
+
+export interface Hero1Type {
+    titleHead: string;
+    title: string;
+    bgImgUrl: string;
+}

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { recentProject2 } from "~/data/data";
-import RecentProjectCard from "../ui/cards/RecentProjectCard2.vue";
 import $ from "jquery";
+import RecentProjectCard from "../ui/cards/RecentProjectCard2.vue";
 
 onMounted(() => {
     $(".optech-3column-slider").slick({
@@ -40,9 +40,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="section optech-section-padding bg-light1">
+    <div class="section optech-section-padding dark-bg">
         <div class="container">
-            <div class="optech-section-title center">
+            <div class="optech-section-title light-color center">
                 <h2>Explore our recent projects</h2>
             </div>
         </div>

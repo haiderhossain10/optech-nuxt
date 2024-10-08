@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ContactFormCard from "./ui/ContactFormCard.vue";
+import ContactFormCard from "../cards/ContactFormCard.vue";
 </script>
 
 <template>
