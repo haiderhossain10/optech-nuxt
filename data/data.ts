@@ -239,6 +239,34 @@ export const recentProject3: RecentProject1Type[] = [
     },
 ];
 
+export const recentProject4: RecentProject1Type[] = [
+    {
+        imgUrl: "/assets/images/p2/p1.png",
+        title: "Digital Product Design",
+        category: "Design, Graphics",
+    },
+    {
+        imgUrl: "/assets/images/p2/p2.png",
+        title: "Cyber Security Analysis",
+        category: "Security, Technology",
+    },
+    {
+        imgUrl: "/assets/images/p2/p3.png",
+        title: "Health App Development",
+        category: "Development, Software",
+    },
+    {
+        imgUrl: "/assets/images/p2/p4.png",
+        title: "Marketing Agency Websit",
+        category: "Development, Marketing",
+    },
+    {
+        imgUrl: "/assets/images/p2/p5.png",
+        title: "Project for Marketing",
+        category: "Marketing, Business",
+    },
+];
+
 export const expertTeam1: ExpertTeam1Type[] = [
     {
         imgUrl: "/assets/images/team/team1.png",
@@ -418,7 +446,7 @@ export const footerQuickLinks: LinkType[] = [
     },
     {
         title: "Contact Us",
-        url: "/contac",
+        url: "/contact",
     },
 ];
 

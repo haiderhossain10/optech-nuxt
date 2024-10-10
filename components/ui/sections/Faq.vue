@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { faq1 } from "~/data/data";
-import FaqCollapse from "./ui/FaqCollapse.vue";
+import FaqCollapse from "../cards/FaqCollapse.vue";
 
 const selectedIndex = ref<number | null>(0);
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { awesomeService3 } from "~/data/data";
+import { awesomeService1 } from "~/data/data";
 import AwesomeServiceCard3 from "../ui/cards/AwesomeServiceCard3.vue";
 </script>
 
@@ -10,17 +10,19 @@ import AwesomeServiceCard3 from "../ui/cards/AwesomeServiceCard3.vue";
                 <h2>Our awesome services to give you success</h2>
             </div>
             <div class="row">
+                <!-- awesome service card start -->
                 <div
-                    class="col-lg-6"
+                    class="col-xl-4 col-md-6"
                     data-aos="fade-up"
-                    :data-aos-duration="i % 2 === 0 ? 600 : 800"
-                    v-for="(item, i) in awesomeService3.slice(0, 6)"
+                    :data-aos-duration="
+                        i % 3 === 0 ? 500 : i % 3 === 1 ? 700 : 900
+                    "
+                    v-for="(item, i) in awesomeService1.slice(0, 6)"
                     :key="i"
                 >
-                    <!-- awesome service card start -->
                     <AwesomeServiceCard3 :data="item" />
-                    <!-- awesome service card end -->
                 </div>
+                <!-- awesome service card end -->
             </div>
         </div>
     </div>

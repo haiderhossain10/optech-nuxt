@@ -1,6 +1,24 @@
 <script setup lang="ts">
 import $ from "jquery";
 
+const brand = [
+    "/assets/images/brand/brand1.svg",
+    "/assets/images/brand/brand2.svg",
+    "/assets/images/brand/brand3.svg",
+    "/assets/images/brand/brand4.svg",
+    "/assets/images/brand/brand5.svg",
+    "/assets/images/brand/brand1.svg",
+    "/assets/images/brand/brand2.svg",
+    "/assets/images/brand/brand3.svg",
+    "/assets/images/brand/brand4.svg",
+    "/assets/images/brand/brand5.svg",
+    "/assets/images/brand/brand1.svg",
+    "/assets/images/brand/brand2.svg",
+    "/assets/images/brand/brand3.svg",
+    "/assets/images/brand/brand4.svg",
+    "/assets/images/brand/brand5.svg",
+];
+
 onMounted(() => {
     $(".optech-brand-slider").slick({
         infinite: true,
@@ -40,50 +58,8 @@ onMounted(() => {
             </p>
         </div>
         <div class="optech-brand-slider">
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand1.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand2.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand3.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand4.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand5.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand1.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand2.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand3.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand4.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand5.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand1.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand2.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand3.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand4.svg" alt="" />
-            </div>
-            <div class="optech-brand-item">
-                <img src="/assets/images/brand/brand5.svg" alt="" />
+            <div class="optech-brand-item" v-for="(item, i) in brand" :key="i">
+                <NuxtImg height="32" class="w-full" :src="item" alt="logo" />
             </div>
         </div>
     </div>

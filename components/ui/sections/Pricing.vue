@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { prcing1 } from "~/data/data";
-import PricingCard from "./ui/PricingCard.vue";
+import PricingCard from "../cards/PricingCard.vue";
 </script>
 
 <template>

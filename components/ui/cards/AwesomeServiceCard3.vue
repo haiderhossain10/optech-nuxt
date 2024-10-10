@@ -14,7 +14,7 @@ const { iconUrl, title, description } = props.data;
             <NuxtImg height="36" width="36" :src="iconUrl" alt="icon" />
         </div>
         <div class="optech-iconbox-data">
-            <h5>{{ title }}</h5>
+            <h5 v-html="title"></h5>
             <p>
                 {{ description }}
             </p>
