@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { blogArticle1 } from "~/data/data";
-import BlogArticleCard from "../ui/cards/BlogArticleCard.vue";
+import BlogArticleCard from "../cards/BlogArticleCard.vue";
 </script>
 
 <template>

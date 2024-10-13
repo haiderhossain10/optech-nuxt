@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { recentProject2 } from "~/data/data";
-import RecentProjectCard from "../ui/cards/RecentProjectCard2.vue";
+import RecentProjectCard from "./../cards/RecentProjectCard2.vue";
 import $ from "jquery";
 
 onMounted(() => {

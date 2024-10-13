@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { expertTeam1 } from "~/data/data";
-import ExpertTeamCard from "./ui/ExpertTeamCard.vue";
+import ExpertTeamCard from "./../cards/ExpertTeamCard.vue";
 </script>
 
 <template>

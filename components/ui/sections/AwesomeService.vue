@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import $ from "jquery";
 import { awesomeService2 } from "~/data/data";
-import AwesomeServiceCard from "../ui/cards/AwesomeServiceCard.vue";
+import AwesomeServiceCard from "./../cards/AwesomeServiceCard.vue";
 
 onMounted(() => {
     if (typeof window !== "undefined") {

@@ -18,6 +18,7 @@
                             <NuxtImg
                                 src="/assets/images/v8/thumb2.png"
                                 alt="thumb"
+                                height="200"
                             />
                         </div>
                         <div class="optech-shape1">
@@ -28,6 +29,7 @@
                         </div>
                         <div class="optech-shape2">
                             <NuxtImg
+                                height="107"
                                 src="/assets/images/shape/shape2.svg"
                                 alt="shape"
                             />

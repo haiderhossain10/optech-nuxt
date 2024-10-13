@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { testimonial1 } from "~/data/data";
-import TestimonialCard from "./ui/TestimonialCard.vue";
 import $ from "jquery";
+import TestimonialCard from "./../cards/TestimonialCard.vue";
 
 onMounted(() => {
     $(".optech-1column-slider").slick({

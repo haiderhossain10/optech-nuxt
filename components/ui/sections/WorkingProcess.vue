@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { workingProcess1 } from "~/data/data";
-import WorkingProcessCard from "../ui/cards/WorkingProcessCard.vue";
+import WorkingProcessCard from "./../cards/WorkingProcessCard.vue";
 </script>
 
 <template>

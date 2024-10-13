@@ -6,7 +6,7 @@ import ChooseUs from "~/components/home-5/ChooseUs.vue";
 import CompanyOverview from "~/components/home-5/CompanyOverview.vue";
 import Hero from "~/components/home-5/Hero.vue";
 import RecentProject from "~/components/home-5/RecentProject.vue";
-import WorkingProcess from "~/components/home-5/WorkingProcess.vue";
+import WorkingProcess from "~/components/ui/sections/WorkingProcess.vue";
 import Testimonial from "~/components/home-5/Testimonial.vue";
 import BlogArticle from "~/components/home-5/BlogArticle.vue";
 import Footer5 from "~/components/footer/Footer5.vue";
