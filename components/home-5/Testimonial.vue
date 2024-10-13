@@ -30,9 +30,6 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="container">
-        <div class="optech-divider"></div>
-    </div>
     <div class="section optech-section-padding">
         <div class="container">
             <div class="optech-section-title center">

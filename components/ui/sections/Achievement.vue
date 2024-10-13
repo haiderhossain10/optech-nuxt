@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { achievement2 } from "~/data/data";
-import AchievementCard from "./ui/AchievementCard.vue";
+import AchievementCard from "../cards/AchievementCard.vue";
 </script>
 
 <template>
@@ -18,5 +18,8 @@ import AchievementCard from "./ui/AchievementCard.vue";
                 <!-- achievement card end -->
             </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="optech-divider"></div>
     </div>
 </template>

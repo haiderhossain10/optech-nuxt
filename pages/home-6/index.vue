@@ -5,7 +5,7 @@ import AwesomeService from "~/components/home-6/AwesomeService.vue";
 import Hero from "~/components/home-6/Hero.vue";
 import RecentProject from "~/components/home-6/RecentProject.vue";
 import About from "~/components/ui/sections/About.vue";
-import ExpertTeam from "~/components/home-6/ExpertTeam.vue";
+import ExpertTeam2 from "~/components/ui/sections/ExpertTeam2.vue";
 import WorkTogether from "~/components/ui/sections/WorkTogether.vue";
 import BlogArticle from "~/components/home-6/BlogArticle.vue";
 import Footer6 from "~/components/footer/Footer6.vue";
@@ -22,7 +22,7 @@ useHead({
     <AwesomeService />
     <RecentProject />
     <ContactForm />
-    <ExpertTeam />
+    <ExpertTeam2 />
     <WorkTogether />
     <BlogArticle />
     <Footer6 />

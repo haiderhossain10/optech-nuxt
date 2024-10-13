@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Header5 from "~/components/header/Header5.vue";
-import Achievement from "~/components/home-5/Achievement.vue";
+import Achievement from "~/components/ui/sections/Achievement.vue";
 import AwesomeService from "~/components/home-5/AwesomeService.vue";
 import ChooseUs from "~/components/home-5/ChooseUs.vue";
 import CompanyOverview from "~/components/home-5/CompanyOverview.vue";

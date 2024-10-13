@@ -3,7 +3,7 @@ import Header7 from "~/components/header/Header7.vue";
 import Pricing from "~/components/ui/sections/Pricing.vue";
 import AwesomeService from "~/components/home-7/AwesomeService.vue";
 import Branding from "~/components/home-7/Branding.vue";
-import Feature from "~/components/home-7/Feature.vue";
+import Feature from "~/components/ui/sections/Feature.vue";
 import Hero from "~/components/home-7/Hero.vue";
 import OurExpertise from "~/components/home-7/OurExpertise.vue";
 import RecentProject from "~/components/home-7/RecentProject.vue";

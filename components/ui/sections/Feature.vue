@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { feature2 } from "~/data/data";
-import FeatureCard from "./ui/FeatureCard.vue";
+import FeatureCard from "../cards/FeatureCard.vue";
 </script>
 
 <template>

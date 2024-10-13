@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { expertTeam2 } from "~/data/data";
 import $ from "jquery";
-import ExpertTeamCard from "./ui/ExpertTeamCard.vue";
+import ExpertTeamCard from "../cards/ExpertTeamCard2.vue";
 
 onMounted(() => {
     $(".optech-4column-slider").slick({
