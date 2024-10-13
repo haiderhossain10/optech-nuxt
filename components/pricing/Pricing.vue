@@ -6,9 +6,6 @@ import PricingCard2 from "../ui/cards/PricingCard2.vue";
 <template>
     <div class="section optech-section-padding2">
         <div class="container">
-            <div class="optech-section-title center">
-                <h2>Effective & flexible pricing</h2>
-            </div>
             <div class="row">
                 <!-- pricing card start -->
                 <div

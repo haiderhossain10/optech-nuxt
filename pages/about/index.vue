@@ -7,7 +7,7 @@ import Feature from "~/components/ui/sections/Feature.vue";
 import ExpertTeam2 from "~/components/ui/sections/ExpertTeam2.vue";
 import ContactForm from "~/components/ui/sections/ContactForm.vue";
 import Footer8 from "~/components/footer/Footer8.vue";
-import WorkTogether from "~/components/about/WorkTogether.vue";
+import WorkTogether2 from "~/components/ui/sections/WorkTogether2.vue";
 
 const path = [
     {
@@ -33,6 +33,6 @@ useHead({
     <Achievement />
     <ExpertTeam2 />
     <ContactForm />
-    <WorkTogether />
+    <WorkTogether2 />
     <Footer8 />
 </template>
