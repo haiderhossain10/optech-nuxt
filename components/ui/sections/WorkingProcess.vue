@@ -22,7 +22,11 @@ import WorkingProcessCard from "./../cards/WorkingProcessCard.vue";
                     <!-- working process card end -->
                 </div>
                 <div class="optech-line">
-                    <NuxtImg src="/assets/images/v2/line.png" alt="line" />
+                    <NuxtImg
+                        class="w-full h-auto"
+                        src="/assets/images/v2/line.png"
+                        alt="line"
+                    />
                 </div>
             </div>
         </div>
