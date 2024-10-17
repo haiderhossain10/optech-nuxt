@@ -76,7 +76,9 @@ const features = [
                     </div>
                 </div>
                 <div class="col-lg-4">
+                    <!-- sidebar start -->
                     <SingleServceSidebar />
+                    <!-- sidebar end -->
                 </div>
             </div>
         </div>

@@ -288,6 +288,26 @@ export const expertTeam1: ExpertTeam1Type[] = [
         name: "Alexander Cameron",
         position: "Product Designer",
     },
+    {
+        imgUrl: "/assets/images/team/team5.png",
+        name: "Barbara Dundas",
+        position: "Digital Marketer",
+    },
+    {
+        imgUrl: "/assets/images/team/team6.png",
+        name: "Zachary Collins",
+        position: "Cyber Specialist",
+    },
+    {
+        imgUrl: "/assets/images/team/team7.png",
+        name: "Mona Zaghloul",
+        position: "Lead Developer",
+    },
+    {
+        imgUrl: "assets/images/team/team8.png",
+        name: "Kari Rasmussen",
+        position: "Cyber Specialist",
+    },
 ];
 
 export const expertTeam2: ExpertTeam1Type[] = [
