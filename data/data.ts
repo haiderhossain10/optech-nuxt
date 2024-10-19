@@ -347,22 +347,43 @@ export const testimonial1: Testimonial1Type[] = [
     {
         comment:
             "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
-        name: "Brooklyn Simmons",
+        name: "Alexander Cameron",
         position: "Lead Developer",
         star: 5,
     },
     {
         comment:
             "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
-        name: "Alexander Cameron",
-        position: "Lead Developer",
+        name: "Marvin McKinney",
+        position: "Product Manager",
         star: 4,
     },
     {
         comment:
             "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
         name: "Brooklyn Simmons",
-        position: "Lead Developer",
+        position: "Creative Director",
+        star: 5,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Ronald Richards",
+        position: "UI Designer",
+        star: 5,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Kristin Watson",
+        position: "Developer",
+        star: 3,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Alexander Cameron",
+        position: "Creative Director",
         star: 5,
     },
     {
@@ -371,6 +392,20 @@ export const testimonial1: Testimonial1Type[] = [
         name: "Brooklyn Simmons",
         position: "Lead Developer",
         star: 5,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Mona Zaghloul",
+        position: "IT Specialist",
+        star: 4,
+    },
+    {
+        comment:
+            "“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”",
+        name: "Ambert Daniel",
+        position: "Digital Marketer",
+        star: 4,
     },
 ];
 
@@ -620,6 +655,14 @@ export const faq1: Faq1Type[] = [
     },
     {
         question: "Q4. What Is Included In A Round Of Revisions?",
+        answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        question: "Q5.What Is Included In A Round Of Revisions?",
+        answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        question: "Q6. Why can't we print on both sides of the paper?",
         answer: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
     },
 ];

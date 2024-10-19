@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import $ from "jquery";
 import { testimonial1 } from "~/data/data";
-import TestimonialCard from "./ui/TestimonialCard.vue";
+import TestimonialCard2 from "../ui/cards/TestimonialCard2.vue";
 
 onMounted(() => {
     $(".optech-3column-slider2").slick({
@@ -41,7 +41,7 @@ onMounted(() => {
                 data-aos="fade-up"
                 data-aos-duration="800"
             >
-                <TestimonialCard
+                <TestimonialCard2
                     v-for="(item, i) in testimonial1.slice(0, 4)"
                     :key="i"
                     :data="item"

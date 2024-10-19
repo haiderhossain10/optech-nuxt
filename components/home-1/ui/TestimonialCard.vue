@@ -11,7 +11,12 @@ const { comment, name, position, star } = props.data;
 <template>
     <div class="optech-t-box">
         <div class="optech-t-quote">
-            <NuxtImg src="/assets/images/v1/quote.svg" alt="quote" />
+            <NuxtImg
+                height="46"
+                width="64"
+                src="/assets/images/v1/quote.svg"
+                alt="quote"
+            />
         </div>
         <div class="optech-t-data">
             <p>

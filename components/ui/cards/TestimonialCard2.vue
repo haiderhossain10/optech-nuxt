@@ -22,15 +22,12 @@ const { comment, name, position, star } = props.data;
                 </ul>
             </div>
             <p>
-                “ Working with several word themes and templates the last years
-                only can say this is best in every level use it for my company
-                and the reviews that I have already are all excellent. Not only
-                the design but the code ”
+                {{ comment }}
             </p>
             <div class="optech-t-footer">
                 <div class="optech-t-author">
-                    <h5>Alexander Cameron</h5>
-                    <span>Lead Developer</span>
+                    <h5>{{ name }}</h5>
+                    <span>{{ position }}</span>
                 </div>
                 <div class="optech-t-quote3">
                     <NuxtImg
