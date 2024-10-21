@@ -10,7 +10,7 @@ const { title, path } = props;
 <template>
     <div
         class="optech-breadcrumb"
-        style="background-image: url(assets/images/breadcrumb/breadcrumb.png)"
+        style="background-image: url(/assets/images/breadcrumb/breadcrumb.png)"
     >
         <div class="container">
             <h1 class="post__title">{{ title }}</h1>

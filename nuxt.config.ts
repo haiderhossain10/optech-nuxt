@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
     compatibilityDate: "2024-04-03",
     devtools: { enabled: true },
+
     css: [
         "bootstrap/dist/css/bootstrap.min.css",
         "slick-carousel/slick/slick.css",
@@ -10,6 +11,8 @@ export default defineNuxtConfig({
         "public/assets/css/main.css",
         "public/assets/css/app.min.css",
     ],
+    plugins: [{ src: "~/plugins/bootstrap.client.ts", mode: "client" }],
+
     googleFonts: {
         families: {
             Lora: {

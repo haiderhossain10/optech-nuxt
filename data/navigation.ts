@@ -99,7 +99,7 @@ const navigation = [
                     },
                     {
                         label: "Shop Details",
-                        url: "/shop-details",
+                        url: "/single-shop/1",
                     },
                     {
                         label: "Cart",

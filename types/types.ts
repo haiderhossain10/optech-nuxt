@@ -82,3 +82,13 @@ export interface Hero1Type {
     title: string;
     bgImgUrl: string;
 }
+
+export interface ShopType {
+    id: number;
+    imgUrl: string;
+    title: string;
+    price: number;
+    offerPrice: number;
+    isSell: boolean;
+    qty?: number;
+}
