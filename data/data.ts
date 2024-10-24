@@ -182,6 +182,31 @@ export const recentProject1: RecentProject1Type[] = [
         title: "Project for Marketing",
         category: "Marketing, Business",
     },
+    {
+        imgUrl: "/assets/images/p1/p8.png",
+        title: "Multifunction Technology",
+        category: "Technology, Software",
+    },
+    {
+        imgUrl: "/assets/images/p1/p6.png",
+        title: "CMS Software Solution",
+        category: "Technology, Software",
+    },
+    {
+        imgUrl: "/assets/images/p1/p7.png",
+        title: "Project for Marketing",
+        category: "Marketing, Business",
+    },
+    {
+        imgUrl: "/assets/images/p1/p9.png",
+        title: "Software Development",
+        category: "Security, Technology",
+    },
+    {
+        imgUrl: "/assets/images/p1/p10.png",
+        title: "Digital Product Design",
+        category: "Design, Graphics",
+    },
 ];
 
 export const recentProject2: RecentProject1Type[] = [
