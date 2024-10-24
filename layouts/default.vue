@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Toaster } from "vue-sonner";
+import Preloader from "~/components/Preloader.vue";
 
 useHead({
     titleTemplate: "Optech %s - IT Solution & Technology Theme",
@@ -8,6 +9,7 @@ useHead({
 
 <template>
     <slot />
+    <Preloader />
     <Toaster class="ui-toast" />
 </template>
 
