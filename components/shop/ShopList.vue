@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { shop } from "~/data/data";
 import ShopCard from "../ui/cards/ShopCard.vue";
-import Pagination from "./ui/Pagination.vue";
+import Pagination from "../ui/Pagination.vue";
 </script>
 
 <template>

@@ -202,8 +202,33 @@ export const recentProject2: RecentProject1Type[] = [
     },
     {
         imgUrl: "/assets/images/p2/p4.png",
+        title: "Cyber Security Analysis",
+        category: "Security, Technology",
+    },
+    {
+        imgUrl: "/assets/images/p2/p5.png",
         title: "Project for Marketing",
         category: "Marketing, Business",
+    },
+    {
+        imgUrl: "/assets/images/p2/p6.png",
+        title: "CMS Software Solution",
+        category: "Technology, Software",
+    },
+    {
+        imgUrl: "/assets/images/p2/p7.png",
+        title: "Multifunction Technology",
+        category: "Technology, Software",
+    },
+    {
+        imgUrl: "/assets/images/p2/p8.png",
+        title: "Digital Product Design",
+        category: "Design, Graphics",
+    },
+    {
+        imgUrl: "/assets/images/p2/p9.png",
+        title: "Software Development",
+        category: "Development, Software",
     },
 ];
 
