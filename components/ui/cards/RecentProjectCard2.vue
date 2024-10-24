@@ -15,12 +15,12 @@ const { title, category, imgUrl } = props.data;
         </div>
         <div class="optech-portfolio-data2-wrap">
             <div class="optech-portfolio-data2">
-                <NuxtLink to="/single-portfolio">
+                <NuxtLink to="/portfolio-details">
                     <h4>{{ title }}</h4>
                 </NuxtLink>
                 <p>{{ category }}</p>
             </div>
-            <NuxtLink class="optech-portfolio-btn2" to="/single-portfolio">
+            <NuxtLink class="optech-portfolio-btn2" to="/portfolio-details">
                 <span class="p-btn-wraper"
                     ><i class="ri-arrow-right-up-line"></i
                 ></span>
