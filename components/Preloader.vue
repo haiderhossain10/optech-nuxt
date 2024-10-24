@@ -1,24 +1,32 @@
 <script setup lang="ts">
+import { ref, watch, onMounted, nextTick } from "vue";
+import { useRoute } from "vue-router";
+
 const preloader = ref(true);
 const route = useRoute();
+
 const PRELOADER_TIMEOUT = 1000;
 
-const togglePreloader = () => {
-    preloader.value = true;
+const stopPreloader = () => {
     setTimeout(() => {
         preloader.value = false;
     }, PRELOADER_TIMEOUT);
 };
 
-// Wait for the window to be fully loaded (including all assets)
-window.onload = () => {
-    togglePreloader();
+const handleLoadComplete = async () => {
+    await nextTick();
+    stopPreloader();
 };
 
+onMounted(() => {
+    handleLoadComplete();
+});
+
 watch(
-    () => route.path,
+    () => route.fullPath,
     () => {
-        togglePreloader();
+        preloader.value = true;
+        handleLoadComplete();
     }
 );
 </script>

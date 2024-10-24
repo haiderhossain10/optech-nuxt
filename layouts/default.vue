@@ -8,8 +8,8 @@ useHead({
 </script>
 
 <template>
-    <slot />
     <Preloader />
+    <slot />
     <Toaster class="ui-toast" />
 </template>
 
