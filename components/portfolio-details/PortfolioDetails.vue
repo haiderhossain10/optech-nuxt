@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import PortfolioContact from "./portfolio-gridContact.vue";
-import PortfolioProjectDetails from "./portfolio-gridProjectDetails.vue";
+import PortfolioContact from "./PortfolioContact.vue";
+import PortfolioProjectDetails from "./PortfolioProjectDetails.vue";
 import Pagination from "./ui/Pagination.vue";
 </script>
 
