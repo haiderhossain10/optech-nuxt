@@ -33,7 +33,7 @@ const { imgUrl, name, position } = props.data;
             </div>
         </div>
         <div class="optech-team-data">
-            <NuxtLink to="/single-team">
+            <NuxtLink to="/team-details">
                 <h5>{{ name }}</h5>
             </NuxtLink>
             <p>{{ position }}</p>

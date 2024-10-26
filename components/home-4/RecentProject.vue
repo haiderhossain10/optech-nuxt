@@ -25,7 +25,7 @@ import RecentProjectCard from "../ui/cards/RecentProjectCard.vue";
                     <NuxtLink
                         class="optech-default-btn"
                         data-text="View Our All Works"
-                        to="/portfolio-01"
+                        to="/portfolio-grid"
                         ><span class="btn-wraper"
                             >View Our All Works</span
                         ></NuxtLink

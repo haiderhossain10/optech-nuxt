@@ -14,7 +14,7 @@ import BlogArticleCard from "../cards/BlogArticleCard.vue";
                     class="col-xl-4 col-md-6"
                     data-aos="fade-up"
                     :data-aos-duration="i * 200 + 600"
-                    v-for="(item, i) in blogArticle1"
+                    v-for="(item, i) in blogArticle1.slice(0, 3)"
                     :key="i"
                 >
                     <!-- blog article card start -->

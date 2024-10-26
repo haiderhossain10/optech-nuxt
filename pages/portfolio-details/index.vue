@@ -16,7 +16,7 @@ const path = [
     },
     {
         label: "Cyber Security Analysis",
-        url: "/portfolio-details",
+        url: "/portfolio-grid",
     },
 ];
 

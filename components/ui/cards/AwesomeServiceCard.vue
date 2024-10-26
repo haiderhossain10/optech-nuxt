@@ -16,7 +16,7 @@ const { imgUrl, iconUrl, title } = props.data;
                 <div class="optech-service-icon">
                     <NuxtImg height="36" width="36" :src="iconUrl" alt="icon" />
                 </div>
-                <NuxtLink to="/single-service">
+                <NuxtLink to="/service-details">
                     <h5 v-html="title"></h5>
                 </NuxtLink>
             </div>

@@ -14,7 +14,7 @@ const center = { lat: 22.4030625, lng: 91.8641114 };
                         <div class="optech-footer-form">
                             <h4>Fill The Contact Form</h4>
                             <p>Get Free Consultation For IT Solutions</p>
-                            <form action="#">
+                            <form action="/">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="optech-main-field">

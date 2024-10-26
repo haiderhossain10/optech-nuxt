@@ -16,7 +16,7 @@ const { iconUrl, title, description } = toRefs(props.data);
         <div class="optech-iconbox-data4">
             <h4>{{ title }}</h4>
             <p>{{ description }}</p>
-            <NuxtLink class="optech-icon-btn" to="/single-service"
+            <NuxtLink class="optech-icon-btn" to="/service-details"
                 ><i class="icon-show ri-arrow-right-line"></i>
                 <span>Learn More</span>
                 <i class="icon-hide ri-arrow-right-line"></i

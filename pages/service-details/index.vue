@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Footer8 from "~/components/footer/Footer8.vue";
 import Header6 from "~/components/header/Header6.vue";
-import ServiceDetail from "~/components/single-service/ServiceDetail.vue";
+import ServiceDetails from "~/components/single-service/ServiceDetails.vue";
 import Breadcrumb from "~/components/ui/sections/Breadcrumb.vue";
 import WorkTogether2 from "~/components/ui/sections/WorkTogether2.vue";
 
@@ -27,7 +27,7 @@ useHead({
 <template>
     <Header6 />
     <Breadcrumb title="Web Development" :path="path" />
-    <ServiceDetail />
+    <ServiceDetails />
     <WorkTogether2 />
     <Footer8 />
 </template>

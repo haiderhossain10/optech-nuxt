@@ -12,11 +12,7 @@ import RecentProjectCard from "../ui/cards/RecentProjectCard.vue";
             <div class="row">
                 <!-- recent project card start -->
                 <div
-                    :class="
-                        recentProject1.length - 1 === i
-                            ? 'col-xl-8'
-                            : 'col-xl-4 col-md-6'
-                    "
+                    :class="4 === i ? 'col-xl-8' : 'col-xl-4 col-md-6'"
                     data-aos="fade-up"
                     :data-aos-duration="
                         i % 3 === 0 ? 500 : i % 3 === 1 ? 700 : 900
@@ -32,7 +28,7 @@ import RecentProjectCard from "../ui/cards/RecentProjectCard.vue";
                     <NuxtLink
                         class="optech-default-btn"
                         data-text="View Our All Works"
-                        to="/portfolio"
+                        to="/portfolio-grid"
                         ><span class="btn-wraper"
                             >View Our All Works</span
                         ></NuxtLink

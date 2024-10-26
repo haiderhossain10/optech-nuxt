@@ -16,7 +16,7 @@ const { iconUrl, title, description } = props.data;
         <div class="optech-iconbox-data">
             <h5 v-html="title"></h5>
             <p>{{ description }}</p>
-            <NuxtLink class="optech-icon-btn" to="/single-service"
+            <NuxtLink class="optech-icon-btn" to="/service-details"
                 ><i class="icon-show ri-arrow-right-line"></i>
                 <span>Learn More</span>
                 <i class="icon-hide ri-arrow-right-line"></i

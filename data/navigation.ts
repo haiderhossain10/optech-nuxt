@@ -126,7 +126,7 @@ const navigation = [
             },
             {
                 label: "Single Portfolio",
-                url: "/portfolio-details",
+                url: "/portfolio-grid",
             },
         ],
     },
