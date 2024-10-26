@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import HeaderBar1 from "./ui/HeaderBar1.vue";
 import HeaderSearch from "./ui/HeaderSearch.vue";
+import MobileNav from "./ui/MobileNav.vue";
 import Nav1 from "./ui/Nav1.vue";
 
 const isSearchActive = useSearchToggle();
 const isSticky = useScroll();
+
+const isMobileMenuActive = useMobileMenuToggle();
 </script>
 
 <template>
@@ -31,15 +34,13 @@ const isSticky = useScroll();
                             </NuxtLink>
                         </div>
                         <div class="menu-block-wrapper">
-                            <div class="menu-overlay"></div>
-                            <nav class="menu-block" id="append-menu-header">
-                                <div class="mobile-menu-head">
-                                    <div class="go-back">
-                                        <i class="fa fa-angle-left"></i>
-                                    </div>
-                                    <div class="current-menu-title"></div>
-                                    <div class="mobile-menu-close">&times;</div>
-                                </div>
+                            <div
+                                :class="`menu-overlay ${
+                                    isMobileMenuActive ? 'active' : ''
+                                }`"
+                                @click="isMobileMenuActive = false"
+                            ></div>
+                            <nav class="menu-block">
                                 <!-- nav start -->
                                 <Nav1 />
                                 <!-- nav end -->
@@ -66,7 +67,10 @@ const isSticky = useScroll();
                             </div>
                         </div>
                         <!-- mobile menu trigger -->
-                        <div class="mobile-menu-trigger">
+                        <div
+                            @click="isMobileMenuActive = true"
+                            class="mobile-menu-trigger"
+                        >
                             <span></span>
                         </div>
                         <!--/.Mobile Menu Hamburger Ends-->
@@ -75,6 +79,7 @@ const isSticky = useScroll();
             </div>
         </div>
     </header>
+
     <!-- header search start -->
     <HeaderSearch />
     <!-- header search end -->

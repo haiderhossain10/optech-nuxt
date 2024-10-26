@@ -6,6 +6,9 @@ export const useSearchToggle = () =>
 export const useHeaderSidebarToggle = () =>
     useState<boolean>("isHeaderSidebarActive", () => false);
 
+export const useMobileMenuToggle = () =>
+    useState<boolean>("isMobileMenuActive", () => false);
+
 export const useShop = () =>
     useState<ShopType[]>("shop", () => [
         {

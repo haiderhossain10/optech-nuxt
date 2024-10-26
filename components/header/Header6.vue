@@ -5,6 +5,8 @@ import HeaderSearch from "./ui/HeaderSearch.vue";
 import Nav1 from "./ui/Nav1.vue";
 const isSearchActive = useSearchToggle();
 const isSticky = useScroll(100);
+
+const isMobileMenuActive = useMobileMenuToggle();
 </script>
 
 <template>
@@ -28,15 +30,13 @@ const isSticky = useScroll(100);
                         </NuxtLink>
                     </div>
                     <div class="menu-block-wrapper">
-                        <div class="menu-overlay"></div>
+                        <div
+                            :class="`menu-overlay ${
+                                isMobileMenuActive ? 'active' : ''
+                            }`"
+                            @click="isMobileMenuActive = false"
+                        ></div>
                         <nav class="menu-block" id="append-menu-header">
-                            <div class="mobile-menu-head">
-                                <div class="go-back">
-                                    <i class="fa fa-angle-left"></i>
-                                </div>
-                                <div class="current-menu-title"></div>
-                                <div class="mobile-menu-close">&times;</div>
-                            </div>
                             <Nav1 />
                         </nav>
                     </div>
@@ -61,7 +61,10 @@ const isSticky = useScroll(100);
                         </div>
                     </div>
                     <!-- mobile menu trigger -->
-                    <div class="mobile-menu-trigger">
+                    <div
+                        @click="isMobileMenuActive = true"
+                        class="mobile-menu-trigger"
+                    >
                         <span></span>
                     </div>
                     <!--/.Mobile Menu Hamburger Ends-->
