@@ -3,6 +3,9 @@ import type {
     AwesomeService1Type,
     AwesomeService2Type,
     BlogArticle1Type,
+    BlogRecentType,
+    BlogType,
+    CategoryType,
     ChooseUs1Type,
     ExpertTeam1Type,
     Faq1Type,
@@ -476,6 +479,36 @@ export const blogArticle1: BlogArticle1Type[] = [
         title: "Proactive customer experience in the business",
         category: "Marketing",
     },
+    {
+        imgUrl: "/assets/images/blog/blog9.png",
+        title: "The importance of a strong digital for strategy",
+        category: "Technology",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog10.png",
+        title: "Technology support allows erie non-profit to serve",
+        category: "Design",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog11.png",
+        title: "The act of knowledge & the act of design thinking",
+        category: "Marketing",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog12.png",
+        title: "Core on web vitals, a smas magazine case study",
+        category: "Technology",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog13.png",
+        title: "Data backup and recovery best practices small",
+        category: "Design",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog14.png",
+        title: "Market insights to manage people related costs",
+        category: "Marketing",
+    },
 ];
 
 export const blogArticle2: BlogArticle1Type[] = [
@@ -814,4 +847,98 @@ export const shop: ShopType[] = [
         offerPrice: 18,
         isSell: false,
     },
+];
+
+export const blog1: BlogType[] = [
+    {
+        imgUrl: "/assets/images/blog/blog1.png",
+        title: "Planning your online business goals with a specialist",
+        date: "26 June 2023",
+        category: "Technology",
+        brief: "Each demo built with Teba will look different. You can customize almost anything in appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog2.png",
+        title: "Boost your startup business with our digital agency",
+        date: "26 June 2023",
+        category: "Technology",
+        brief: "Each demo built with Teba will look different. You can customize almost anything in appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog3.png",
+        title: "Proactive customer experience in the business",
+        date: "26 June 2023",
+        category: "Technology",
+        brief: "Each demo built with Teba will look different. You can customize almost anything in appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog4.png",
+        title: "Core on web vitals, a smas magazine case study",
+        date: "26 June 2023",
+        category: "Technology",
+        brief: "Each demo built with Teba will look different. You can customize almost anything in appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+    {
+        imgUrl: "/assets/images/blog/blog5.png",
+        title: "Technology support allows erie non-profit to serve",
+        date: "26 June 2023",
+        category: "Technology",
+        brief: "Each demo built with Teba will look different. You can customize almost anything in appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    },
+];
+
+export const blogRecent1: BlogRecentType[] = [
+    {
+        imgUrl: "/assets/images/blog/recent-post1.png",
+        title: "Planning your online business goals with a specialist",
+        date: "26 June 2023",
+    },
+    {
+        imgUrl: "/assets/images/blog/recent-post2.png",
+        title: "Boost your startup business with our digital agency ",
+        date: "26 June 2023",
+    },
+    {
+        imgUrl: "assets/images/blog/recent-post3.png",
+        title: "The importance of a strong digital for strategy ",
+        date: "26 June 2023",
+    },
+];
+
+export const category1: CategoryType[] = [
+    {
+        name: "Uncategorized",
+        count: 18,
+    },
+    {
+        name: "Marketing",
+        count: 5,
+    },
+    {
+        name: "Business",
+        count: 2,
+    },
+    {
+        name: "Technology",
+        count: 11,
+    },
+    {
+        name: "Consulting",
+        count: 4,
+    },
+    {
+        name: "Cyber Security",
+        count: 8,
+    },
+];
+
+export const tag1 = [
+    "Business",
+    "Digital",
+    "IT Solution",
+    "Technology",
+    "Cyber Security",
+    "Digital",
+    "Finance",
+    "Software",
 ];

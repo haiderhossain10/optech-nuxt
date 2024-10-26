@@ -1,34 +1,37 @@
 <script setup lang="ts">
-import type { BlogArticle1Type } from "~/types/types";
+import type { BlogType } from "~/types/types";
 
 const props = defineProps<{
-    data: BlogArticle1Type;
+    data: BlogType;
 }>();
 
-const { imgUrl, title, category } = props.data;
+const { imgUrl, title, date, category, brief } = props.data;
 </script>
 
 <template>
     <div class="optech-blog-wrap">
         <NuxtLink to="/blog-details">
             <div class="optech-blog-thumb">
-                <NuxtImg :src="imgUrl" alt="img" />
+                <NuxtImg :src="imgUrl" alt="blog" />
             </div>
         </NuxtLink>
-        <div class="optech-blog-content reduced-padding">
+        <div class="optech-blog-content">
             <div class="optech-blog-meta">
                 <ul>
                     <li>
                         <NuxtLink to="/blog-details">{{ category }}</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/blog-details">26 June 2023</NuxtLink>
+                        <NuxtLink to="/blog-details">{{ date }}</NuxtLink>
                     </li>
                 </ul>
             </div>
             <NuxtLink to="/blog-details">
-                <h4>{{ title }}</h4>
+                <h2>{{ title }}</h2>
             </NuxtLink>
+            <p>
+                {{ brief }}
+            </p>
             <NuxtLink class="optech-icon-btn" to="/blog-details"
                 ><i class="icon-show ri-arrow-right-line"></i>
                 <span>Learn More</span>

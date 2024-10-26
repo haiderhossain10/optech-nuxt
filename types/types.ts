@@ -92,3 +92,22 @@ export interface ShopType {
     isSell: boolean;
     qty?: number;
 }
+
+export interface BlogType {
+    imgUrl: string;
+    title: string;
+    date: string;
+    category: string;
+    brief: string;
+}
+
+export interface BlogRecentType {
+    imgUrl: string;
+    title: string;
+    date: string;
+}
+
+export interface CategoryType {
+    name: string;
+    count: number;
+}
